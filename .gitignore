@@ -1,0 +1,80 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ===============================
+# Virtual environments
+# ===============================
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ===============================
+# Jupyter / IPython
+# ===============================
+.ipynb_checkpoints/
+.profile_default/
+.python-version
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ===============================
+# Python build artifacts
+# ===============================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/
+.streamlit/secrets.toml
+
+# ===============================
+# Data (raw / large / sensitive)
+# ===============================
+data/raw/
+data/interim/
+*.csv
+!data/processed/goa_cleaned.csv
+
+# ===============================
+# Model artifacts
+# ===============================
+models/*.joblib
+models/*.pkl
+
+# ===============================
+# Cache
+# ===============================
+.cache/
+joblib/
+
+# ===============================
+# Temporary files
+# ===============================
+tmp/
+temp/
