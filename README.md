@@ -98,9 +98,6 @@ goa-rental-price-prediction/
 ├── README.md
 └── .gitignore
 
-yaml
-Copy code
-
 ---
 
 ## ⚙️ How to Run Locally
